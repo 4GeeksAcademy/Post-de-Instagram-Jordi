@@ -1,0 +1,70 @@
+.encabezado {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background: white;
+}   
+
+body {
+    background-color: rgb(175, 175, 175);
+}
+
+.post{
+    background: white;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+.titulo {
+    box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    border-bottom: 0.5px solid grey;
+}
+.foto {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#SegundaFoto {
+    height: 400px;
+}
+.descripcion {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border-top: 0.5px solid grey;
+}
+
+h2 {
+    font-size: 18px;
+}
+.numero {
+    color: grey;
+    position: relative;
+}
+.description {
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#UltimaDescripcion {
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    /*Intento de crear unos puntos suspensivos si el texto superaba el tamaño limitado*/
+}
+
+
+
+/*div {
+    border: 1px solid blue;
+}*/
